@@ -1,5 +1,5 @@
 import requests
-
+ 
 def get_last_price(ticker: str) -> float:
     """
     Esta funcion busca usando la API de yahoo finance el ultimo precio disponible del instrumento cuyo ticker es 'ticker'.
